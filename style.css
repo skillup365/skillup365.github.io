@@ -22,9 +22,40 @@ body {
     font-size: 22px
 }
 
-/* Center content with padding */
-body {
-    padding: 50px;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav li::before, 
+nav li::after {
+    content: "|";
+    padding: 0 10px;
+    color: white
+}
+
+nav li:first-child::after {
+    content:"";
+    padding: 0 0px;
+}
+
+nav li:last-child::before {
+    content:"";
+    padding: 0 0px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px
 }
 
 
@@ -37,13 +68,11 @@ a:hover {
     color: #0056b3;
 }
 
-/* Utility classes */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
-.hidden {
-    display: none;
+
+main {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
