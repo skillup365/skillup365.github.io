@@ -1,7 +1,7 @@
 
-
   body {
     font-family: 'Varela Round', sans-serif;
+    background-color: #6f42c1 !important;
   }
 
   /* Custom nav link style */
@@ -36,4 +36,4 @@
     margin-top: 2rem;
   }
 
-  
+
