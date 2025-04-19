@@ -41,26 +41,46 @@
   nav ul li a:hover {
     background: #555;
   }
-  
-  /* When nav is active (mobile open) */
-  nav.active ul {
-    display: flex;
+
+/* Here is the main */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2{
+    font-size: 2rem;
+}
+
+.intro p{
+    font-size: 1.1rem;
+    color: 555;
+}
+
+
+
+  .pillars img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
   }
-  
+
+
+
+
 
 
 
   /* Desktop view */
-  @media (min-width: 768px) {
-    .burger {
-      display: none; /* Hide burger on desktop */
-    }
+  @media (min-width: 1020px) {
   
     nav ul {
-      display: flex !important;
+      /* display: flex !important; */
       flex-direction: row;
       justify-content: center;
-      background: none;
     }
   
     nav ul li a {
