@@ -1,159 +1,39 @@
 
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 
   body {
-    line-height: 1.6;
-    color:white;
-    background-color: #432874;;
-    font-family: 'Varela Round', Arial, sans-serif;
-    font-size: 22px
-  }
-  
-  header {
-    padding: 1em;
-    background: #333;
-    color: white;
-    text-align: center;
+    font-family: 'Varela Round', sans-serif;
   }
 
-  nav ul {
-    list-style: none;
-    display: none; /* Hidden by default */
-    flex-direction: column;
-    background: #444;
-    padding: 0px;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 1em;
-    color: white;
+  /* Custom nav link style */
+  nav a {
     text-decoration: none;
-    border-bottom: 1px solid #555;
-  }
-  
-  nav ul li a:hover {
-    background: #555;
+    color: white;
   }
 
-/* Here is the main */
-.intro {
+  .nav-link-custom {
+    background-color: #007bff;
+    border-radius: 5px;
     text-align: center;
-    margin-bottom: 40px;
-}
+    transition: background-color 0.3s;
+  }
 
-.intro h2{
-    font-size: 2rem;
-}
+  .nav-link-custom:hover {
+    background-color: #0056b3;
+  }
 
-.intro p{
-    font-size: 1.1rem;
-    color: 555;
-}
-
-
-
-  .pillars img {
+  /* Make pillar images responsive and well-sized */
+  .pillar img {
     width: 100%;
-    max-width: 300px;
-    height: auto;
-    display: block;
-    border-radius: 10px;
+    max-height: 250px;
     object-fit: cover;
+    border-radius: 10px;
   }
 
-
-
-
-
-
-
-  /* Desktop view */
-  @media (min-width: 1020px) {
-  
-    nav ul {
-      /* display: flex !important; */
-      flex-direction: row;
-      justify-content: center;
-    }
-  
-    nav ul li a {
-      border: none;
-      padding: 1em 1.5em;
-    }
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f8f9fa;
+    margin-top: 2rem;
   }
+
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Base styles */
-body {
-    line-height: 1.6;
-    color:white;
-    background-color: #432874;;
-    font-family: 'Varela Round', Arial, sans-serif;
-    font-size: 22px
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav {
-    margin: 20px 0;
-}
-
-nav ul{
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px
-}
-
-
-a {
-    text-decoration: none;
-    color: #007BFF;
-}
-
-a:hover {
-    color: #0056b3;
-}
-
-main {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
