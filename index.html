@@ -1,63 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+    <title>SkillUp360</title>
+    <!-- Link to Google Fonts for custom font -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet'>
+    <!-- Link to Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJ0nYk5p8c2s5tKz6Gz6p1WlC6jNS9l8r4Xgl1qg9z8V4vfa2Oqz8aRz0wFf" crossorigin="anonymous">
+    <!-- Link to custom stylesheet (style.css) -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-      <h1>🌟 SkillUp360</h1>
-      <p>Learn by Teaching, helping other while learning.</p>
-      
-      <nav id="navMenu">
-        <ul>
-          <li><a href="shona/index.html">🗣️ Pass It On: Shona</a></li>
-          <li><a href="backto80s/index.html">🕹️ BackTo80s</a></li>
-          <li><a href="devdojo/index.html">💻 DevDojo</a></li>
-          <li><a href="about/index.html">©️ About</a></li>
-        </ul>
-      </nav>
-    </header>
+    <!-- Main container for consistent layout padding -->
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center mt-5">
+            <h1>🌟 SkillUp360</h1>
+            <p>Learn by Teaching, helping others while learning.</p>
+            <!-- Navigation Menu -->
+            <nav id="navMenu">
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="mx-3"><a href="shona/index.html">🗣️ Pass It On: Shona</a></li>
+                    <li class="mx-3"><a href="backto80s/index.html">🕹️ BackTo80s</a></li>
+                    <li class="mx-3"><a href="devdojo/index.html">💻 DevDojo</a></li>
+                    <li class="mx-3"><a href="about/index.html">©️ About</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <!-- Main Content Section -->
+        <main>
+            <!-- Intro Section -->
+            <section class="intro text-center mt-5">
+                <h2>Welcome to SkillUp360</h2>
+                <p>This is a community-focused project where we <strong>learn by teaching</strong>, <strong>play by sharing</strong>, and <strong>build by doing</strong>.</p>
+            </section>
 
-    <main>
-      <section class="intro">
-        <h2>Welcome to SkillUp360</h2>
-        <p>This is a community-focused project where we <strong>learn by teaching</strong>, <strong>play by sharing</strong>, and <strong>build by doing</strong>.</p>
-      </section>
+            <!-- Pillars Section (The Three Main Areas) -->
+            <section class="pillars row text-center mt-5">
+                <!-- Pillar 1: Shona Language -->
+                <div class="pillar col-12 col-md-4 mb-4">
+                    <h3>🗣️ Pass It On: Shona</h3>
+                    <p>Learn the Shona language by teaching others — the best way to master something is to share it!</p>
+                    <img src="assets/images/learnshona.jpeg" alt="Learn Shona" class="img-fluid">
+                </div>
+                <!-- Pillar 2: Retro Games -->
+                <div class="pillar col-12 col-md-4 mb-4">
+                    <h3>🕹️ BackTo80s</h3>
+                    <p>Experience the joy of retro games and share it with others — gaming the old school way.</p>
+                    <img src="assets/images/playretrogames.jpeg" alt="Play Retro Games" class="img-fluid">
+                </div>
+                <!-- Pillar 3: Web Development -->
+                <div class="pillar col-12 col-md-4 mb-4">
+                    <h3>💻 DevDojo</h3>
+                    <p>Become a better web developer by building real, useful tools and apps.</p>
+                    <img src="assets/images/devdogomain.jpeg" alt="Web Development" class="img-fluid">
+                </div>
+            </section>
+        </main>
 
-      <section class="pillars">
-        <div class="pillar">
-            <h3>🗣️ Pass It On: Shona</h3>
-          <p>Learn the Shona language by teaching others — the best way to master something is to share it!</p>
-          <img src="assets/images/learnshona.jpeg" alt="learn Shona can be fun">
-        </div>
-        <div class="pillar">
-            <h3>🕹️ BackTo80s</h3>
-            <p>Experience the joy of retro games and share it with others — gaming the old school way.</p>
-            <img src="assets/images/playretrogames.jpeg" alt="let back in time and play retro games">
-        </div>
-        <div class="pillar">
-            <h3>💻 DevDojo</h3>
-            <p>Become a better web developer by building real, useful tools and apps.</p>
-            <img src="assets/images/devdogomain.jpeg" alt="join us and learn development">
-        </div>
-      </section>
-    </main>
-  
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="container">
+                <p class="mb-0">© 2025 SkillUp360. <em>Learn by Doing. Teach by Learning.</em></p>
+            </div>
+        </footer>
+    </div>
 
-
-
-    <footer>
-      <p>© 2025 SkillUp360. Learn by Doing. Teach by Learning.</p>
-    </footer>
-  </body>
+    <!-- Bootstrap JS and dependencies (Popper.js and Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybFNsU6qGz2TAStrxL/dJffzVzC9lFPy0K4Bd3PskvJ6jlg51" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0Dh0npAd1wHww/32wR/h1gmf6xl6xD/K44z9o5Kv9o8WJz3V" crossorigin="anonymous"></script>
+</body>
 
 </html>
-
-
-
