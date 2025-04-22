@@ -4,6 +4,21 @@
     background-color: #011638;
   }
 
+  .color_shona {
+    background-color: #011638;
+    color: white;
+  }
+
+  .color_back80 {
+    background-color: #CA2E55;
+    color: white;
+  }
+
+  .color_devdojo {
+    background-color: #EAD637;
+    color: black;
+  }
+
   /* Custom nav link style */
   nav a {
     text-decoration: none;
