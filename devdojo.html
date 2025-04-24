@@ -2,70 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SkillUp360</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pass It On: Shona | SkillUp360</title>
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom CSS-->
-  <link href="../style.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
 
   <!-- Optional Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-  <style>
-    /* Custom Style for DevDojo Text */
-    .devdojo-text {
-      color: #011638; /* Dark color for better readability */
-    }
-  </style>
 </head>
 
-<body>
+<body class="body-yellow">
   <div class="container py-4">
 
-    <!-- Header Section -->
     <header class="text-center mb-4">
-      <h1 class="mb-2 text-white">🌟 SkillUp360</h1>
-      <p class="lead text-white">Learn by teaching. Help others while learning.</p>
+      <h1 class="mb-2 text-dark">🌟 SkillUp360</h1>
+      <p class="lead text-dark">Learn by teaching. Help others while learning.</p>
 
       <!-- Navigation -->
       <nav>
         <div class="d-flex flex-column flex-md-row justify-content-center gap-2 mt-4">
-          <a href="../shona/index.html" class="nav-link-custom w-100 py-2 px-3 text-white">🗣️ Pass It On: Shona</a>
-          <a href="../backto80s/index.html" class="nav-link-custom w-100 py-2 px-3 text-white">🕹️ BackTo80s</a>
-          <a href="../devdojo/index.html" class="nav-link-custom w-100 py-2 px-3 text-white">💻 DevDojo</a>
-          <a href="../about/index.html" class="nav-link-custom w-100 py-2 px-3 text-white">©️ About</a>
+          <a href="../shona/index.html" class="nav-link-custom w-100 py-2 px-3">🗣️ Pass It On: Shona</a>
+          <a href="../gameon/index.html" class="nav-link-custom w-100 py-2 px-3">🕹️ Game On</a>
+          <a href="../devdojo/index.html" class="nav-link-custom w-100 py-2 px-3">💻 DevDojo</a>
+          <a href="../about/index.html" class="nav-link-custom w-100 py-2 px-3">©️ About</a>
         </div>
       </nav>
     </header>
 
-    <!-- DevDojo Section -->
+    <!-- Section Title -->
     <section class="text-center mb-5">
-      <div class="pillars">
-        <div class="row g-4">
-          <!-- DevDojo Pillar -->
-          <div class="col-md-4">
-            <div class="pillar p-3 bg-warning shadow-sm rounded">
-              <h3 class="devdojo-text">💻 DevDojo</h3>
-              <p class="devdojo-text">Become a better web developer by building real, useful tools and apps.</p>
-              <img src="../assets/images/devdogomain.jpeg" alt="join us and learn development" class="img-fluid">
-            </div>
+      <h2 class="fw-bold text-dark">💻 DevDojo</h2>
+      <p class="fs-5 text-dark">
+        This isn't just about learning to code — it's about learning to make. At DevDojo, we focus on practical, hands-on projects that help you create real, useful things. Whether it's a simple tool, a helpful website, or a small automation, the goal is to become a maker. No pressure to become a professional programmer — just learn by doing and build things that matter.
+      </p>
+    </section>
+
+    <!-- Content Area -->
+    <section class="pillars">
+      <div class="row g-4">
+        <!-- Sample Shona Lesson Card -->
+        <div class="col-md-6">
+          <div class="pillar p-3 shadow-sm rounded bg-white">
+            <h4>Lesson 1: Greetings in Shona</h4>
+            <p>Start with the basics: how to say hello, goodbye, good morning, and goodnight in Shona. Easy phrases, pronunciation help, and cultural notes included.</p>
+            <a href="#" class="btn btn-primary">View Lesson</a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="pillar p-3 shadow-sm rounded bg-white">
+            <h4>Lesson 2: Introducing Yourself</h4>
+            <p>Learn how to introduce yourself in Shona — your name, where you're from, and what you like to do.</p>
+            <a href="#" class="btn btn-primary">View Lesson</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-      <p class="text-white">© 2025 SkillUp360. Learn by teaching. Help others while learning.</p>
-      <p><b>🕹️ Developed by 🎮</b></p>
-      <p>William Ortega</p>
+    <footer class="text-center mt-5 text-dark">
+      <p>© 2025 SkillUp360 — Learn by teaching. Help others while learning.</p>
     </footer>
   </div>
-
-  <!-- Bootstrap JS (optional, for dropdowns etc. if needed later) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

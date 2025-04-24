@@ -1,4 +1,6 @@
 
+  
+  
   .body-blue {
     font-family: 'Varela Round', sans-serif;
     background-color: #011638;
@@ -6,18 +8,27 @@
 
   .body-red {
     font-family: 'Varela Round', sans-serif;
-    background-color: #011638;
+    background-color: #B80C09;
+  }
+
+  .body-yellow {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #FFA62B;
+  }
+
+  .button-blue {
+    color: #004FFF;
   }
 
 
   /* Custom nav link style */
   nav a {
     text-decoration: none;
-    color: white;
+    color: #FAFDF6;
   }
 
   .nav-link-custom {
-    background-color: #007bff;
+    background-color: #004FFF;
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s;
@@ -42,24 +53,3 @@
     margin-top: 2rem;
   }
 
-
-
-/* 
-
-  .nav-link-custom {
-    background-color: rgba(255,255,255,0.1);
-    border: 1px solid #fff;
-    border-radius: 0.5rem;
-    transition: background-color 0.3s;
-  }
-  .nav-link-custom:hover {
-    background-color: rgba(255,255,255,0.3);
-  }
-  .pillar {
-    background-color: white;
-    color: #011638;
-  }
-  .pillar img {
-    width: 100%;
-    border-radius: 0.5rem;
-  } */
