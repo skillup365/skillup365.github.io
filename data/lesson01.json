@@ -1,0 +1,68 @@
+{
+  "title": "Lesson 1: Greetings and Introductions",
+  "description": "Learn basic Shona greetings, polite expressions, and how to introduce yourself in everyday situations.",
+  "vocabulary": [
+    {
+      "word": "Hello",
+      "shona": "Mhoro",
+      "pronunciation": "mho-ro",
+      "audio": "audio/mhoro.mp3"
+    },
+    {
+      "word": "Good morning",
+      "shona": "Mangwanani akanaka",
+      "pronunciation": "man-gwa-na-ni aka-na-ka",
+      "audio": "audio/mangwanani.mp3"
+    },
+    {
+      "word": "Good afternoon",
+      "shona": "Masikati akanaka",
+      "pronunciation": "ma-see-ka-tee aka-na-ka",
+      "audio": "audio/masikati.mp3"
+    },
+    {
+      "word": "Good evening",
+      "shona": "Manheru akanaka",
+      "pronunciation": "man-heh-roo aka-na-ka",
+      "audio": "audio/manheru.mp3"
+    },
+    {
+      "word": "How are you?",
+      "shona": "Wakadini zvako?",
+      "pronunciation": "wa-ka-dee-ni zwa-ko",
+      "audio": "audio/wakadini.mp3"
+    },
+    {
+      "word": "I'm fine",
+      "shona": "Ndiri right",
+      "pronunciation": "n-dee-ree right",
+      "audio": "audio/ndiri_right.mp3"
+    },
+    {
+      "word": "What is your name?",
+      "shona": "Unonzi ani?",
+      "pronunciation": "u-non-zee a-nee",
+      "audio": "audio/unonzi.mp3"
+    },
+    {
+      "word": "My name is William",
+      "shona": "Ndinonzi William",
+      "pronunciation": "n-dee-non-zee William",
+      "audio": "audio/ndinonzi_william.mp3"
+    },
+    {
+      "word": "Nice to meet you",
+      "shona": "Ndafara kukuziva",
+      "pronunciation": "nda-fa-ra ku-ku-zee-va",
+      "audio": "audio/ndafara.mp3"
+    }
+  ],
+  "dialogue": [
+    { "speaker": "A", "text": "Mhoro! Wakadini zvako?" },
+    { "speaker": "B", "text": "Ndiri right! Iwe wakadini zvako?" },
+    { "speaker": "A", "text": "Ndiri rightwo. Unonzi ani?" },
+    { "speaker": "B", "text": "Ndinonzi Tawanda. Iwe unonzi ani?" },
+    { "speaker": "A", "text": "Ndinonzi William. Ndafara kukuziva." },
+    { "speaker": "B", "text": "Ndafara kukuzivawo!" }
+  ]
+}
