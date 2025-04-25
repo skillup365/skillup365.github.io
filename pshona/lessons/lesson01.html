@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shona Lesson | SkillUp360</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Lesson... | SkillUp365</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-  <!-- Custom CSS-->
-  <link href="./style.css" rel="stylesheet">
-  <!-- Optional Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="../../css/style.css" rel="stylesheet">
 </head>
 
 <body class="body-blue">
   <div class="container py-4">
-    <header class="text-center mb-4 text-white">
-      <h1 class="mb-2 text-white">🌟 SkillUp360</h1>
-      <p class="lead text-white">Learn by teaching. Help others while learning.</p>
+    <!-- Back Button -->
+    <a href="../pshona.html" class="btn btn-outline-light mb-4 back-button">
+      <i class="fas fa-arrow-left"></i> Back to Lessons
+    </a>
 
-      <!-- Navigation -->
-      <nav>
-        <div class="d-flex flex-column flex-md-row justify-content-center gap-2 mt-4">
-          <a href="./passitonshona.html" class="nav-link-custom w-100 py-2 px-3">🗣️ Pass It On: Shona</a>
-          <a href="./gameon.html" class="nav-link-custom w-100 py-2 px-3">🕹️ Game On</a>
-          <a href="./devdojo.html" class="nav-link-custom w-100 py-2 px-3">💻 DevDojo</a>
-          <a href="./README.md" class="nav-link-custom w-100 py-2 px-3">©️ About</a>
-        </div>
-      </nav>
+    <!-- Lesson Content -->
+    <header class="text-center mb-4 text-white">
+      <h1 id="lesson-title" class="fw-bold">Loading Lesson...</h1>
+      <p id="lesson-description" class="lead"></p>
     </header>
 
-    <!-- Lesson Title Section -->
-    <section class="text-center mb-5 text-white">
-      <h2 class="fw-bold" id="lesson-title">🗣️ Lesson Title</h2>
-      <p class="fs-5">A brief description of the lesson content to engage learners.</p>
-    </section>
 
-    <!-- Vocabulary Section -->
-    <section id="vocab-section" class="mb-5">
-      <h3>🗣️ Vocabulary</h3>
-      <div id="vocab-list" class="row g-3 mb-5"></div>
-    </section>
+<!-- Vocabulary Section -->
+<div class="container bg-white">
+<section class="lesson-section">
+  <h2><i class="fas fa-book-open"></i> Vocabulary</h2>
+    <div id="vocabulary-list" class="card-grid"></div>
+</section>
+</div>
 
-    <!-- Dialogue Section -->
-    <section id="dialogue-section" class="mb-5">
-      <h3>💬 Dialogue</h3>
-      <div id="dialogue" class="bg-white rounded p-4 shadow-sm"></div>
-    </section>
+<!-- Conversations Section -->
+<section class="lesson-section">
+  <h2><i class="fas fa-comments"></i> Conversations</h2>
+  <div id="conversation-list"></div>
+</section>
 
-    <!-- Footer -->
-    <footer class="text-center mt-5">
-      <p>© 2025 SkillUp360 — Learn by teaching. Help others while learning.</p>
-    </footer>
-  </div>
+<!-- Grammar Section -->
+<section class="lesson-section">
+  <h2><i class="fas fa-lightbulb"></i> Grammar Tips</h2>
+  <div id="grammar-tips"></div>
+</section>
 
-  <!-- External JS -->
-  <script src="js/lesson.js"></script>
+
+
+
+  <!-- JavaScript -->
+  <script src="../../js/lesson.js"></script>
 </body>
 </html>

@@ -76,3 +76,104 @@
 .footer .social-links a i {
   margin-right: 5px;
 }
+
+
+
+
+
+/* Ensure text is visible in white boxes */
+.body-blue .bg-white,
+.body-blue .bg-light {
+  color: #212529; /* Bootstrap's dark text color */
+}
+
+/* Better spacing for content */
+.vocab-item, .dialog-item, .grammar-item {
+  transition: all 0.2s ease;
+}
+
+/* Hover effects */
+.vocab-item:hover {
+  background-color: #f8f9fa !important;
+}
+
+/* Audio button styling */
+.btn-success {
+  margin-top: 8px;
+}
+
+/* Ensure proper text contrast */
+.text-dark {
+  color: #212529 !important;
+}
+
+
+
+
+
+
+
+* Base Styles */
+.lesson-body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.section-title {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Vocabulary Cards */
+.vocab-card {
+  transition: transform 0.2s;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.vocab-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Conversation Styles */
+.conversation-line {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.speaker-a {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+.speaker-b {
+  background-color: #e8f5e9;
+  border-left: 4px solid #4caf50;
+}
+
+.speaker-badge {
+  font-weight: bold;
+  color: #7f8c8d;
+}
+
+/* Audio Controls */
+.play-btn {
+  transition: all 0.3s;
+}
+
+.play-btn:hover {
+  transform: scale(1.02);
+}
+
+/* Grammar Cards */
+.grammar-card {
+  border-left: 4px solid #ffc107;
+}
+
+.example-box {
+  border-radius: 4px;
+  font-family: monospace;
+}

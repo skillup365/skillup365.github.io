@@ -1,68 +1,47 @@
 {
-  "title": "Lesson 1: Greetings and Introductions",
-  "description": "Learn basic Shona greetings, polite expressions, and how to introduce yourself in everyday situations.",
+  "meta": {
+    "title": "Greetings and Introductions",
+    "description": "Learn essential Shona greetings and basic conversations",
+    "backLink": "/pshona/pshona.html"
+  },
   "vocabulary": [
     {
-      "word": "Hello",
       "shona": "Mhoro",
-      "pronunciation": "mho-ro",
-      "audio": "audio/mhoro.mp3"
+      "english": "Hello (informal)",
+      "pronunciation": "mhoh-roh",
+      "category": "Greeting"
     },
     {
-      "word": "Good morning",
-      "shona": "Mangwanani akanaka",
-      "pronunciation": "man-gwa-na-ni aka-na-ka",
-      "audio": "audio/mangwanani.mp3"
+      "shona": "Mangwanani",
+      "english": "Good morning",
+      "pronunciation": "mahn-gwah-nah-nee",
+      "category": "Greeting"
     },
     {
-      "word": "Good afternoon",
-      "shona": "Masikati akanaka",
-      "pronunciation": "ma-see-ka-tee aka-na-ka",
-      "audio": "audio/masikati.mp3"
-    },
-    {
-      "word": "Good evening",
-      "shona": "Manheru akanaka",
-      "pronunciation": "man-heh-roo aka-na-ka",
-      "audio": "audio/manheru.mp3"
-    },
-    {
-      "word": "How are you?",
       "shona": "Wakadini zvako?",
-      "pronunciation": "wa-ka-dee-ni zwa-ko",
-      "audio": "audio/wakadini.mp3"
-    },
-    {
-      "word": "I'm fine",
-      "shona": "Ndiri right",
-      "pronunciation": "n-dee-ree right",
-      "audio": "audio/ndiri_right.mp3"
-    },
-    {
-      "word": "What is your name?",
-      "shona": "Unonzi ani?",
-      "pronunciation": "u-non-zee a-nee",
-      "audio": "audio/unonzi.mp3"
-    },
-    {
-      "word": "My name is William",
-      "shona": "Ndinonzi William",
-      "pronunciation": "n-dee-non-zee William",
-      "audio": "audio/ndinonzi_william.mp3"
-    },
-    {
-      "word": "Nice to meet you",
-      "shona": "Ndafara kukuziva",
-      "pronunciation": "nda-fa-ra ku-ku-zee-va",
-      "audio": "audio/ndafara.mp3"
+      "english": "How are you?",
+      "pronunciation": "wah-kah-dee-nee zvah-koh",
+      "category": "Question"
     }
   ],
-  "dialogue": [
-    { "speaker": "A", "text": "Mhoro! Wakadini zvako?" },
-    { "speaker": "B", "text": "Ndiri right! Iwe wakadini zvako?" },
-    { "speaker": "A", "text": "Ndiri rightwo. Unonzi ani?" },
-    { "speaker": "B", "text": "Ndinonzi Tawanda. Iwe unonzi ani?" },
-    { "speaker": "A", "text": "Ndinonzi William. Ndafara kukuziva." },
-    { "speaker": "B", "text": "Ndafara kukuzivawo!" }
+  "conversations": [
+    {
+      "title": "Morning Greeting",
+      "lines": [
+        {"speaker": "Person A", "shona": "Mangwanani", "english": "Good morning"},
+        {"speaker": "Person B", "shona": "Mangwanani", "english": "Good morning"},
+        {"speaker": "Person A", "shona": "Wakadini zvako?", "english": "How are you?"},
+        {"speaker": "Person B", "shona": "Ndiripo, maita basa", "english": "I'm fine, thank you"}
+      ],
+      "audio": "/audio/greeting1.mp3",
+      "notes": "Use before noon with elders"
+    }
+  ],
+  "grammarTips": [
+    {
+      "title": "Formal Greetings",
+      "content": "Add honorifics like 'mai' (mother) or 'baba' (father) when greeting elders: 'Mangwanani mai'",
+      "example": "Mangwanani baba → Good morning sir"
+    }
   ]
 }
